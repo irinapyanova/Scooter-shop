@@ -1,0 +1,44 @@
+.header {
+  padding: 50px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__icons-wrapper {
+    display: flex;
+    gap: 18px;
+  }
+}
+
+.container {
+  @include container;
+}
+
+.menu-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 25px;
+  color: $text-color-light;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: $color-main;
+  border: none;
+  border-radius: 83px;
+  cursor: pointer;
+
+  &__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,112 @@
+.lead {
+  padding-bottom: 80px;
+
+  &__inner {
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+  }
+
+  &__info {
+    flex-basis: 30%;
+  }
+
+  &__info-title {
+    margin-bottom: 64px;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 128px;
+    letter-spacing: -0.03em;
+  }
+
+  &__info-text {
+    margin-bottom: 96px;
+    font-family: $font-ibm;
+    color: rgba($text-color-dark, 0.7);
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__btn-catalog {
+    margin-right: 60px;
+    padding: 33px 65px;
+    color: $text-color-light;
+    font-size: 25px;
+    line-height: 30px;
+    white-space: nowrap;
+    background-color: $color-main;
+    border-radius: 50px;
+  }
+
+  &__btn-call {
+    display: inline-flex;
+    align-items: center;
+    font-family: $font-ibm;
+    color: $color-main;
+    font-size: 22px;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+
+  &__btn-call-icon {
+    display: inline-block;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+  }
+
+  &__product {
+    position: relative;
+    flex-basis: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__product-info {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 294px;
+    height: 294px;
+    padding: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+  }
+
+  &__product-info-title {
+    color: $text-color-light;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  &__product-info-desc {
+    display: inline-block;
+    margin-bottom: 32px;
+    color: rgba($text-color-light, 0.7);
+  }
+
+  &__product-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  &__product-btn-text {
+    display: inline-block;
+    margin-left: 8px;
+    color: rgba($text-color-light, 0.7);
+    font-family: $font-ibm;
+    font-size: 18px;
+  }
+}
+
+.container {
+  @include container;
+}

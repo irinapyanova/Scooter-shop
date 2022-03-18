@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buy-icon,
+.search-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+}
