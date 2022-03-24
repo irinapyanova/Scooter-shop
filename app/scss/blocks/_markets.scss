@@ -1,0 +1,23 @@
+.markets {
+  padding-bottom: 200px;
+
+  &__inner {
+    padding: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/img/bg-gradient.png');
+    background-position-y: center;
+    border-radius: 60px;
+  }
+
+  &__img--yandex {
+    width: 470px;
+    height: 90px;
+  }
+
+  &__img--ozon {
+    width: 215px;
+    height: 47px;
+  }
+}
