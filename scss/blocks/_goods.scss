@@ -1,0 +1,88 @@
+.goods {
+  padding: 180px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+  }
+
+  &__card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 45px;
+    background-color: #fbfbfb;
+    border: 1px solid rgba($text-color-dark, 0.03);
+    border-radius: 30px;
+    box-shadow: 0px 18px 35px rgba(155, 161, 167, 0.2);
+
+    &-info {
+      flex-basis: 55%;
+      padding-top: 45px;
+    }
+
+    &-title {
+      margin-bottom: 24px;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+    &-text {
+      margin-bottom: 40px;
+      color: rgba($text-color-dark, 0.65);
+      font-size: 16px;
+      line-height: 23px;
+    }
+
+    &-btn {
+      display: inline-block;
+      align-self: flex-end;
+      padding: 18px;
+      color: $text-color-light;
+      background-color: $color-main;
+      border-radius: 20px;
+    }
+
+    &-text-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    &-price {
+      display: block;
+      margin-top: 8px;
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+    &-offer {
+      position: absolute;
+      top: 40px;
+      right: 38px;
+      padding: 12px;
+      color: $text-color-light;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 15px;
+      background-color: $color-accent-prime;
+    }
+
+  }
+
+  &__img {
+    width: 240px;
+    height: 385px;
+  }
+
+  &__btn-text {
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}

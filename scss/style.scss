@@ -2,9 +2,13 @@
 @import "common/_common";
 @import "common/_variables";
 @import "common/_fonts";
-@import "common/_mixins";
 
 
 // blocks files
 @import "blocks/_header";
 @import "blocks/_lead";
+@import "blocks/_about";
+@import "blocks/_goods";
+@import "blocks/_reviews";
+@import "blocks/_markets";
+@import "blocks/_footer";

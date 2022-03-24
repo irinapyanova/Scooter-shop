@@ -22,10 +22,9 @@
           </button>
         </div>
         <div class="header__icons-wrapper">
-          <i class="buy-icon"
-            style="background-image: url('images/icons/buy-icon.svg');"></i>
-          <i class="search-icon"
-            style="background-image: url('images/icons/search-icon.svg');"></i>
+          <a href="#" class="buy-icon"></a>
+          <a href="#" class="search-icon"
+            style="background-image: url('images/icons/search-icon.svg');"></a>
         </div>
       </div>
     </div>
@@ -46,7 +45,7 @@
               </a>
             </div>
           </div>
-          <div class="lead__product" style="background-image: url('images/img/lead-product.png');">
+          <div class="lead__product">
             <div class="lead__product-info" style="background-image: url('images/img/bg-product-info.png');">
               <p class="lead__product-info-title">Ninenot Kickscooter Max G30</p>
               <span class="lead__product-info-desc">Лидер продаж</span>
@@ -56,11 +55,220 @@
                 <span class="lead__product-btn-text">Купить</span>
               </a>
             </div>
+
+            <div class="lead__card lead__card--red">
+              <i class="lead__card-icon" style="background-image: url('images/icons/lead-card-icon-red.svg');"></i>
+              <p class="lead__card-text">Максимальная скорость 30км/ч</p>
+            </div>
+            <div class="lead__card lead__card--green">
+              <i class="lead__card-icon" style="background-image: url('images/icons/lead-card-icon-green.svg');"></i>
+              <p class="lead__card-text">Аккумулятор 6800 А·ч</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__inner" style="background-image: url('images/img/bg-gradient.png');">
+          <h2 class="title">Почему мы</h2>
+          <i class="about__icon-plus" style="background-image: url('images/img/plus.png');"></i>
+          <i class="about__icon-binocular" style="background-image: url('images/img/binocular.png');"></i>
+          <div class="about__info">
+            <div class="about__info-item">
+              <i class="about__info-icon" style="background-image: url('images/icons/delivery-icon.svg');"></i>
+              <p class="about__info-text">Скорость доставки —
+                <span class="about__info-text about__info-text--grey">самокат у вас в день заказа</span>
+              </p>
+            </div>
+            <div class="about__info-item">
+              <i class="about__info-icon" style="background-image: url('images/icons/star-icon.svg');"></i>
+              <p class="about__info-text">Многолетний опыт —
+                <span class="about__info-text about__info-text--grey">
+                  на рынке 12 лет</span>
+              </p>
+            </div>
+            <div class="about__info-item">
+              <i class="about__info-icon" style="background-image: url('images/icons/heart-icon.svg');"></i>
+              <p class="about__info-text">Любовь клиентов —
+                <span class="about__info-text about__info-text--grey">362 положительных отзыва</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="goods">
+      <div class="container">
+        <h2 class="title">В продаже</h2>
+        <div class="goods__wrapper">
+          <div class="goods__card">
+            <div class="goods__card-info">
+              <h3 class="goods__card-title">MIDWAY Yamato 0810</h3>
+              <p class="goods__card-text">
+                Аккумулятор 6800 А·ч <br>
+                Максимальная скорость 30 км/ч <br>
+                Максимальная нагрузка 120 кг
+              </p>
+              <a href="#" class="goods__card-btn">
+                <div class="goods__card-text-wrapper">
+                  <i class="buy-icon"></i>
+                  <span class="goods__btn-text">Купить за</span>
+                </div>
+                <p class="goods__card-price">18 490 ₽</p>
+              </a>
+            </div>
+            <img src="images/img/imgMidway.png" alt="Скутер Midway" class="goods__img">
+            <span class="goods__card-offer">New</span>
+          </div>
+
+          <div class="goods__card">
+            <div class="goods__card-info">
+              <h3 class="goods__card-title">AOVO S3 2021</h3>
+              <p class="goods__card-text">
+                Аккумулятор 5380 А·ч <br>
+                Максимальная скорость 24 км/ч <br>
+                Максимальная нагрузка 132 кг
+              </p>
+              <a href="#" class="goods__card-btn">
+                <div class="goods__card-text-wrapper">
+                  <i class="buy-icon"></i>
+                  <span class="goods__btn-text">Купить за</span>
+                </div>
+                <p class="goods__card-price">17 900 ₽</p>
+              </a>
+            </div>
+            <img src="images/img/imgAovo.png" alt="Скутер Aovo" class="goods__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__inner">
+          <h2 class="title">Клиенты говорят</h2>
+          <div class="reviews__grid">
+            <div class="reviews__item">
+              <div class="reviews__item-title-wrapper">
+                <img src="images/img/image-daniel.jpg" alt="Фото Daniel" class="reviews__item-img">
+                <h4 class="reviews__item-title">Daniel</h4>
+              </div>
+              <p class="reviews__item-text">Приятно прокатиться всей семьей по вечерней Москве. Одного заряда хватает на 3 часа.</p>
+            </div>
+            <div class="reviews__item reviews__grid--span-2">
+              <div class="reviews__item-title-wrapper">
+                <img src="images/img/image-jonathan.jpg" alt="Фото Jonathan" class="reviews__item-img">
+                <h4 class="reviews__item-title reviews__item-title--light">Jonathan</h4>
+              </div>
+              <p class="reviews__item-text reviews__item-text--light">Большой выбор моделей самокатов и скутеров, представлены различные бренды, цены вполне доступные, быстрая доставка.</p>
+            </div>
+            <div class="reviews__item reviews__grid--span-2">
+              <div class="reviews__item-title-wrapper">
+                <img src="images/img/image-patrick.jpg" alt="Фото Patrick" class="reviews__item-img">
+                <h4 class="reviews__item-title">Patrick</h4>
+              </div>
+              <p class="reviews__item-text">Привозил всё вежливый курьер, с которым было приятно рассчитываться. Мне даже подсказал как пользоваться правильно зарядкой электросамоката. Спасибо что сделали бесплатную гидроизоляцию.</p>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__item-title-wrapper">
+                <img src="images/img/image-jeanette.jpg" alt="Фото Jeanette" class="reviews__item-img">
+                <h4 class="reviews__item-title  reviews__item-title--light">Jeanette</h4>
+              </div>
+              <p class="reviews__item-text reviews__item-text--light">Легкий, удобный самокат. В сложенном виде прекрасно живет в багажнике машины.</p>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__item-title-wrapper">
+                <img src="images/img/image-kira.jpg" alt="Фото Kira" class="reviews__item-img">
+                <h4 class="reviews__item-title">Kira</h4>
+              </div>
+              <p class="reviews__item-text">Заказывала электросамокат KUGOO-S3 Jilong - White. Менеджер перезвонил, подтвердил мой заказ. Курьером доставили в назначенный день. Оплатила наличными курьеру. Рекомендую.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="markets">
+      <div class="container">
+        <div class="markets__inner">
+          <img src="images/img/Yandex.png" alt="Логотип Яндекс Маркет" class="markets__img markets__img--yandex">
+          <img src="images/img/Ozon.png" alt="Логотип Ozon" class="markets__img markets__img--ozon">
+          <img src="images/img/Sber.png" alt="Логотип Сбер" class="markets__img markets__img--sber">
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo-wrapper">
+          <a href="#" class="logo logo--footer">
+            <img src="images/img/logo.svg" alt="Логотип Run" class="logo__img">
+          </a>
+          <p class="copyright">© 2009-2021. RUN <br>
+            Все права защищены
+          </p>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__nav-items">
+            <li class="footer__nav-title">Сотрудничество</li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Новости</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Партнёрская программа</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">О производстве</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Вакансии</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <ul class="footer__nav-items">
+            <li class="footer__nav-title">Покупателям</li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Как выбрать</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Оплата и доставка</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Обратная связь</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Возврат</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Социальная ответственность</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social-wrapper">
+          <p class="footer__email">hello@run.ru</p>
+          <a href="#" class="footer__social-link">
+            <img src="images/icons/telegram-icon.svg" alt="Логотип Telegram" class="footer__social-img">
+          </a>
+          <a href="#" class="footer__social-link">
+            <img src="images/icons/youtube-icon.svg" alt="Логотип Youtube" class="footer__social-img">
+          </a>
+          <a href="#" class="footer__social-link">
+            <img src="images/icons/social-icon.svg" alt="Логотип Social" class="footer__social-img">
+          </a>
+          <a href="#" class="footer__social-link">
+            <img src="images/icons/in-icon.svg" alt="Логотип Linkedin" class="footer__social-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="js/main.min.js"></script>
 </body>
 </html>
