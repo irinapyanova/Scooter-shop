@@ -1,59 +1,51 @@
 .reviews {
   padding-bottom: 125px;
 
-  &__grid {
-    margin-top: 80px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-
-    &--span-2 {
-      grid-column: span 2;
-    }
+  &__inner {
+    display: flex;
   }
 
-  &__item {
-    padding: 30px;
-    border: 1px solid rgba($text-color-dark, 0.03);
-    border-radius: 30px;
-    box-shadow: 0px 18px 35px rgba(155, 161, 167, 0.2);
-
-    &:nth-child(even) {
-      background-image: url('../images/img/bg-gradient.png');
-    }
-
-    &:last-child {
-      grid-column-start: 4;
-      grid-row: 1 / 3;
-    }
-
-    &-title-wrapper {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-basis: 66.7%;
 
     &-img {
-      margin-right: 25px;
-      border-radius: 50%;
-    }
-
-    &-title {
-      color: rgba($text-color-dark, 0.7);
-      font-size: 30px;
-
-      &--light {
-        color: rgba($text-color-light, 0.7);
-      }
+      height: 710px;
+      border-radius: 225px 225px 24px 24px;
+      box-shadow: 0px 3px 3px rgba($text-color-dark, 0.25);
     }
 
     &-text {
-      font-family: $font-ibm;
-      font-size: 25px;
-      line-height: 35px;
+      margin-top: 110px;
+      margin-bottom: 48px;
+      color: rgba($text-color-dark, 0.5);
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 30px;
+    }
 
-      &--light {
-        color: $text-color-light;
+    &-client {
+      margin-bottom: 58px;
+      color: rgba($text-color-dark, 0.75);
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 62px;
+    }
+
+    &-model {
+      display: block;
+      color: rgba($text-color-dark, 0.65);
+      font-family: $font-ibm;
+      font-size: 16px;
+      line-height: 23px;
+
+      &-name {
+        color: rgba($text-color-dark, 0.75);
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
       }
     }
   }
